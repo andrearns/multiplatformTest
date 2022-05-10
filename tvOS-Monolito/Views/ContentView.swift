@@ -70,11 +70,11 @@ struct ContentView: View {
             Spacer()
         }
         .onAppear {
-            splitList()
+            separateList()
         }
     }
     
-    func splitList() {
+    func separateList() {
         codeHelpList = HelpSingleton.shared.helpModelList.filter({ helpModel in
             helpModel.type == .code
         })

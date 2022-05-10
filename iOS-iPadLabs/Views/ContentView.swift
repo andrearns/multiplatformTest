@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  iPadTVs
-//
-//  Created by André Arns on 10/05/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {

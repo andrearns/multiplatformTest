@@ -1,6 +1,6 @@
 //
-//  MiniChallenge04_TestApp.swift
-//  Shared
+//  iOS_StudentsApp.swift
+//  iOS-Students
 //
 //  Created by André Arns on 10/05/22.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct MiniChallenge04_TestApp: App {
+struct StudentsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

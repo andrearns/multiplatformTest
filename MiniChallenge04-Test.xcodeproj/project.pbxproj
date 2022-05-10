@@ -7,57 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5BE70D71282AF4A100E36372 /* MiniChallenge04_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70D61282AF49F00E36372 /* MiniChallenge04_TestApp.swift */; };
-		5BE70D72282AF4A100E36372 /* MiniChallenge04_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70D61282AF49F00E36372 /* MiniChallenge04_TestApp.swift */; };
-		5BE70D73282AF4A100E36372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70D62282AF49F00E36372 /* ContentView.swift */; };
-		5BE70D74282AF4A100E36372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70D62282AF49F00E36372 /* ContentView.swift */; };
-		5BE70D75282AF4A100E36372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE70D63282AF4A100E36372 /* Assets.xcassets */; };
-		5BE70D76282AF4A100E36372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE70D63282AF4A100E36372 /* Assets.xcassets */; };
-		5BE70D86282AF68B00E36372 /* MiniChallenge04_Test_TvOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70D85282AF68B00E36372 /* MiniChallenge04_Test_TvOSApp.swift */; };
+		5BE70D86282AF68B00E36372 /* MonolitoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70D85282AF68B00E36372 /* MonolitoApp.swift */; };
 		5BE70D88282AF68B00E36372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70D87282AF68B00E36372 /* ContentView.swift */; };
 		5BE70D8A282AF68C00E36372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE70D89282AF68C00E36372 /* Assets.xcassets */; };
 		5BE70D8D282AF68C00E36372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE70D8C282AF68C00E36372 /* Preview Assets.xcassets */; };
-		5BE70D98282AF7CA00E36372 /* iPadTVsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70D97282AF7CA00E36372 /* iPadTVsApp.swift */; };
+		5BE70D98282AF7CA00E36372 /* iPadLabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70D97282AF7CA00E36372 /* iPadLabsApp.swift */; };
 		5BE70D9A282AF7CA00E36372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70D99282AF7CA00E36372 /* ContentView.swift */; };
 		5BE70D9C282AF7CC00E36372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE70D9B282AF7CC00E36372 /* Assets.xcassets */; };
 		5BE70D9F282AF7CC00E36372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE70D9E282AF7CC00E36372 /* Preview Assets.xcassets */; };
-		5BE70DDB282B001600E36372 /* HelpSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DD9282B001600E36372 /* HelpSingleton.swift */; };
-		5BE70DDC282B001600E36372 /* HelpSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DD9282B001600E36372 /* HelpSingleton.swift */; };
 		5BE70DDD282B001600E36372 /* HelpSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DD9282B001600E36372 /* HelpSingleton.swift */; };
 		5BE70DDE282B001600E36372 /* HelpSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DD9282B001600E36372 /* HelpSingleton.swift */; };
-		5BE70DDF282B001600E36372 /* HelpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DDA282B001600E36372 /* HelpModel.swift */; };
-		5BE70DE0282B001600E36372 /* HelpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DDA282B001600E36372 /* HelpModel.swift */; };
 		5BE70DE1282B001600E36372 /* HelpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DDA282B001600E36372 /* HelpModel.swift */; };
 		5BE70DE2282B001600E36372 /* HelpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DDA282B001600E36372 /* HelpModel.swift */; };
+		5BE70DE7282B1C7700E36372 /* AnnouncementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DE4282B1C7600E36372 /* AnnouncementModel.swift */; };
+		5BE70DE8282B1C7700E36372 /* AnnouncementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DE4282B1C7600E36372 /* AnnouncementModel.swift */; };
+		5BE70DEF282B1FFF00E36372 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DEE282B1FFF00E36372 /* UserModel.swift */; };
+		5BE70DF0282B1FFF00E36372 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DEE282B1FFF00E36372 /* UserModel.swift */; };
+		5BE70DFA282B214E00E36372 /* StudentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DF9282B214E00E36372 /* StudentsApp.swift */; };
+		5BE70DFC282B214E00E36372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DFB282B214E00E36372 /* ContentView.swift */; };
+		5BE70DFE282B214F00E36372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE70DFD282B214F00E36372 /* Assets.xcassets */; };
+		5BE70E01282B214F00E36372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE70E00282B214F00E36372 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		5BE70DC8282AFC1C00E36372 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		5BE70D61282AF49F00E36372 /* MiniChallenge04_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChallenge04_TestApp.swift; sourceTree = "<group>"; };
-		5BE70D62282AF49F00E36372 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BE70D63282AF4A100E36372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5BE70D68282AF4A100E36372 /* MiniChallenge04-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniChallenge04-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BE70D6E282AF4A100E36372 /* MiniChallenge04-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniChallenge04-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BE70D70282AF4A100E36372 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		5BE70D83282AF68B00E36372 /* MiniChallenge04-Test-TvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniChallenge04-Test-TvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BE70D85282AF68B00E36372 /* MiniChallenge04_Test_TvOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChallenge04_Test_TvOSApp.swift; sourceTree = "<group>"; };
+		5BE70D83282AF68B00E36372 /* Monolito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monolito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE70D85282AF68B00E36372 /* MonolitoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonolitoApp.swift; sourceTree = "<group>"; };
 		5BE70D87282AF68B00E36372 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BE70D89282AF68C00E36372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE70D8C282AF68C00E36372 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5BE70D95282AF7CA00E36372 /* iPadTVs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadTVs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BE70D97282AF7CA00E36372 /* iPadTVsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadTVsApp.swift; sourceTree = "<group>"; };
+		5BE70D97282AF7CA00E36372 /* iPadLabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadLabsApp.swift; sourceTree = "<group>"; };
 		5BE70D99282AF7CA00E36372 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BE70D9B282AF7CC00E36372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE70D9E282AF7CC00E36372 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -65,23 +45,16 @@
 		5BE70DD9282B001600E36372 /* HelpSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpSingleton.swift; sourceTree = "<group>"; };
 		5BE70DDA282B001600E36372 /* HelpModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpModel.swift; sourceTree = "<group>"; };
 		5BE70DE3282B00FF00E36372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5BE70DE4282B1C7600E36372 /* AnnouncementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementModel.swift; sourceTree = "<group>"; };
+		5BE70DEE282B1FFF00E36372 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		5BE70DF7282B214E00E36372 /* iOS-Students.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Students.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE70DF9282B214E00E36372 /* StudentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsApp.swift; sourceTree = "<group>"; };
+		5BE70DFB282B214E00E36372 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BE70DFD282B214F00E36372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BE70E00282B214F00E36372 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5BE70D65282AF4A100E36372 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BE70D6B282AF4A100E36372 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BE70D80282AF68B00E36372 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,6 +69,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BE70DF4282B214E00E36372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,9 +84,9 @@
 			children = (
 				5BE70DD2282AFEEC00E36372 /* MiniChallenge04-Test--iOS--Info.plist */,
 				5BE70D60282AF49F00E36372 /* Shared */,
-				5BE70D6F282AF4A100E36372 /* macOS */,
-				5BE70D84282AF68B00E36372 /* tvOS */,
-				5BE70D96282AF7CA00E36372 /* iPadTVs */,
+				5BE70D84282AF68B00E36372 /* tvOS-Monolito */,
+				5BE70D96282AF7CA00E36372 /* iOS-iPadLabs */,
+				5BE70DF8282B214E00E36372 /* iOS-Students */,
 				5BE70D69282AF4A100E36372 /* Products */,
 				5BE70DCF282AFEE900E36372 /* Frameworks */,
 			);
@@ -115,10 +95,9 @@
 		5BE70D60282AF49F00E36372 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				5BE70D61282AF49F00E36372 /* MiniChallenge04_TestApp.swift */,
-				5BE70D62282AF49F00E36372 /* ContentView.swift */,
-				5BE70DDA282B001600E36372 /* HelpModel.swift */,
-				5BE70DD9282B001600E36372 /* HelpSingleton.swift */,
+				5BE70DEC282B1CE700E36372 /* Network */,
+				5BE70DEB282B1CE200E36372 /* Domain */,
+				5BE70DEA282B1C9500E36372 /* Mocks */,
 				5BE70D63282AF4A100E36372 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -127,31 +106,23 @@
 		5BE70D69282AF4A100E36372 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5BE70D68282AF4A100E36372 /* MiniChallenge04-Test.app */,
-				5BE70D6E282AF4A100E36372 /* MiniChallenge04-Test.app */,
-				5BE70D83282AF68B00E36372 /* MiniChallenge04-Test-TvOS.app */,
+				5BE70D83282AF68B00E36372 /* Monolito.app */,
 				5BE70D95282AF7CA00E36372 /* iPadTVs.app */,
+				5BE70DF7282B214E00E36372 /* iOS-Students.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5BE70D6F282AF4A100E36372 /* macOS */ = {
+		5BE70D84282AF68B00E36372 /* tvOS-Monolito */ = {
 			isa = PBXGroup;
 			children = (
-				5BE70D70282AF4A100E36372 /* macOS.entitlements */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		5BE70D84282AF68B00E36372 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				5BE70D85282AF68B00E36372 /* MiniChallenge04_Test_TvOSApp.swift */,
-				5BE70D87282AF68B00E36372 /* ContentView.swift */,
+				5BE70E08282B21A400E36372 /* View Models */,
+				5BE70DF1282B20FA00E36372 /* Views */,
+				5BE70D85282AF68B00E36372 /* MonolitoApp.swift */,
 				5BE70D89282AF68C00E36372 /* Assets.xcassets */,
 				5BE70D8B282AF68C00E36372 /* Preview Content */,
 			);
-			path = tvOS;
+			path = "tvOS-Monolito";
 			sourceTree = "<group>";
 		};
 		5BE70D8B282AF68C00E36372 /* Preview Content */ = {
@@ -162,16 +133,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5BE70D96282AF7CA00E36372 /* iPadTVs */ = {
+		5BE70D96282AF7CA00E36372 /* iOS-iPadLabs */ = {
 			isa = PBXGroup;
 			children = (
+				5BE70E07282B219700E36372 /* View Models */,
+				5BE70DF2282B210600E36372 /* Views */,
 				5BE70DE3282B00FF00E36372 /* Info.plist */,
-				5BE70D97282AF7CA00E36372 /* iPadTVsApp.swift */,
-				5BE70D99282AF7CA00E36372 /* ContentView.swift */,
+				5BE70D97282AF7CA00E36372 /* iPadLabsApp.swift */,
 				5BE70D9B282AF7CC00E36372 /* Assets.xcassets */,
 				5BE70D9D282AF7CC00E36372 /* Preview Content */,
 			);
-			path = iPadTVs;
+			path = "iOS-iPadLabs";
 			sourceTree = "<group>";
 		};
 		5BE70D9D282AF7CC00E36372 /* Preview Content */ = {
@@ -189,48 +161,107 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5BE70DE9282B1C7E00E36372 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BE70DE4282B1C7600E36372 /* AnnouncementModel.swift */,
+				5BE70DDA282B001600E36372 /* HelpModel.swift */,
+				5BE70DEE282B1FFF00E36372 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5BE70DEA282B1C9500E36372 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				5BE70DD9282B001600E36372 /* HelpSingleton.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		5BE70DEB282B1CE200E36372 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5BE70DE9282B1C7E00E36372 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5BE70DEC282B1CE700E36372 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5BE70DF1282B20FA00E36372 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BE70D87282AF68B00E36372 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5BE70DF2282B210600E36372 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BE70D99282AF7CA00E36372 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5BE70DF8282B214E00E36372 /* iOS-Students */ = {
+			isa = PBXGroup;
+			children = (
+				5BE70E06282B219000E36372 /* View Models */,
+				5BE70E05282B218500E36372 /* Views */,
+				5BE70DF9282B214E00E36372 /* StudentsApp.swift */,
+				5BE70DFD282B214F00E36372 /* Assets.xcassets */,
+				5BE70DFF282B214F00E36372 /* Preview Content */,
+			);
+			path = "iOS-Students";
+			sourceTree = "<group>";
+		};
+		5BE70DFF282B214F00E36372 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5BE70E00282B214F00E36372 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BE70E05282B218500E36372 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BE70DFB282B214E00E36372 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5BE70E06282B219000E36372 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		5BE70E07282B219700E36372 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		5BE70E08282B21A400E36372 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5BE70D67282AF4A100E36372 /* MiniChallenge04-Test (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5BE70D79282AF4A100E36372 /* Build configuration list for PBXNativeTarget "MiniChallenge04-Test (iOS)" */;
-			buildPhases = (
-				5BE70D64282AF4A100E36372 /* Sources */,
-				5BE70D65282AF4A100E36372 /* Frameworks */,
-				5BE70D66282AF4A100E36372 /* Resources */,
-				5BE70DC8282AFC1C00E36372 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MiniChallenge04-Test (iOS)";
-			packageProductDependencies = (
-			);
-			productName = "MiniChallenge04-Test (iOS)";
-			productReference = 5BE70D68282AF4A100E36372 /* MiniChallenge04-Test.app */;
-			productType = "com.apple.product-type.application";
-		};
-		5BE70D6D282AF4A100E36372 /* MiniChallenge04-Test (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5BE70D7C282AF4A100E36372 /* Build configuration list for PBXNativeTarget "MiniChallenge04-Test (macOS)" */;
-			buildPhases = (
-				5BE70D6A282AF4A100E36372 /* Sources */,
-				5BE70D6B282AF4A100E36372 /* Frameworks */,
-				5BE70D6C282AF4A100E36372 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MiniChallenge04-Test (macOS)";
-			packageProductDependencies = (
-			);
-			productName = "MiniChallenge04-Test (macOS)";
-			productReference = 5BE70D6E282AF4A100E36372 /* MiniChallenge04-Test.app */;
-			productType = "com.apple.product-type.application";
-		};
 		5BE70D82282AF68B00E36372 /* MiniChallenge04-Test-TvOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BE70D8E282AF68C00E36372 /* Build configuration list for PBXNativeTarget "MiniChallenge04-Test-TvOS" */;
@@ -247,7 +278,7 @@
 			packageProductDependencies = (
 			);
 			productName = "MiniChallenge04-Test-TvOS";
-			productReference = 5BE70D83282AF68B00E36372 /* MiniChallenge04-Test-TvOS.app */;
+			productReference = 5BE70D83282AF68B00E36372 /* Monolito.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5BE70D94282AF7CA00E36372 /* iPadTVs */ = {
@@ -269,6 +300,23 @@
 			productReference = 5BE70D95282AF7CA00E36372 /* iPadTVs.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5BE70DF6282B214E00E36372 /* iOS-Students */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE70E02282B214F00E36372 /* Build configuration list for PBXNativeTarget "iOS-Students" */;
+			buildPhases = (
+				5BE70DF3282B214E00E36372 /* Sources */,
+				5BE70DF4282B214E00E36372 /* Frameworks */,
+				5BE70DF5282B214E00E36372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Students";
+			productName = "iOS-Students";
+			productReference = 5BE70DF7282B214E00E36372 /* iOS-Students.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -279,16 +327,13 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					5BE70D67282AF4A100E36372 = {
-						CreatedOnToolsVersion = 13.3.1;
-					};
-					5BE70D6D282AF4A100E36372 = {
-						CreatedOnToolsVersion = 13.3.1;
-					};
 					5BE70D82282AF68B00E36372 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 					5BE70D94282AF7CA00E36372 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					5BE70DF6282B214E00E36372 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
@@ -306,31 +351,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5BE70D67282AF4A100E36372 /* MiniChallenge04-Test (iOS) */,
-				5BE70D6D282AF4A100E36372 /* MiniChallenge04-Test (macOS) */,
 				5BE70D82282AF68B00E36372 /* MiniChallenge04-Test-TvOS */,
 				5BE70D94282AF7CA00E36372 /* iPadTVs */,
+				5BE70DF6282B214E00E36372 /* iOS-Students */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5BE70D66282AF4A100E36372 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BE70D75282AF4A100E36372 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BE70D6C282AF4A100E36372 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BE70D76282AF4A100E36372 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BE70D81282AF68B00E36372 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,38 +377,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BE70DF5282B214E00E36372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE70E01282B214F00E36372 /* Preview Assets.xcassets in Resources */,
+				5BE70DFE282B214F00E36372 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5BE70D64282AF4A100E36372 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BE70DDF282B001600E36372 /* HelpModel.swift in Sources */,
-				5BE70D73282AF4A100E36372 /* ContentView.swift in Sources */,
-				5BE70D71282AF4A100E36372 /* MiniChallenge04_TestApp.swift in Sources */,
-				5BE70DDB282B001600E36372 /* HelpSingleton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BE70D6A282AF4A100E36372 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BE70DE0282B001600E36372 /* HelpModel.swift in Sources */,
-				5BE70D74282AF4A100E36372 /* ContentView.swift in Sources */,
-				5BE70D72282AF4A100E36372 /* MiniChallenge04_TestApp.swift in Sources */,
-				5BE70DDC282B001600E36372 /* HelpSingleton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BE70D7F282AF68B00E36372 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5BE70DE1282B001600E36372 /* HelpModel.swift in Sources */,
 				5BE70D88282AF68B00E36372 /* ContentView.swift in Sources */,
-				5BE70D86282AF68B00E36372 /* MiniChallenge04_Test_TvOSApp.swift in Sources */,
+				5BE70D86282AF68B00E36372 /* MonolitoApp.swift in Sources */,
+				5BE70DE7282B1C7700E36372 /* AnnouncementModel.swift in Sources */,
+				5BE70DEF282B1FFF00E36372 /* UserModel.swift in Sources */,
 				5BE70DDD282B001600E36372 /* HelpSingleton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,8 +408,19 @@
 			files = (
 				5BE70DE2282B001600E36372 /* HelpModel.swift in Sources */,
 				5BE70D9A282AF7CA00E36372 /* ContentView.swift in Sources */,
-				5BE70D98282AF7CA00E36372 /* iPadTVsApp.swift in Sources */,
+				5BE70D98282AF7CA00E36372 /* iPadLabsApp.swift in Sources */,
+				5BE70DE8282B1C7700E36372 /* AnnouncementModel.swift in Sources */,
+				5BE70DF0282B1FFF00E36372 /* UserModel.swift in Sources */,
 				5BE70DDE282B001600E36372 /* HelpSingleton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE70DF3282B214E00E36372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE70DFC282B214E00E36372 /* ContentView.swift in Sources */,
+				5BE70DFA282B214E00E36372 /* StudentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,125 +536,6 @@
 			};
 			name = Release;
 		};
-		5BE70D7A282AF4A100E36372 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VWZ6P536SX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MiniChallenge04-Test--iOS--Info.plist";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.andrearns.MiniChallenge04-Test";
-				PRODUCT_NAME = "MiniChallenge04-Test";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5BE70D7B282AF4A100E36372 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VWZ6P536SX;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MiniChallenge04-Test--iOS--Info.plist";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.andrearns.MiniChallenge04-Test";
-				PRODUCT_NAME = "MiniChallenge04-Test";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5BE70D7D282AF4A100E36372 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VWZ6P536SX;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.andrearns.MiniChallenge04-Test";
-				PRODUCT_NAME = "MiniChallenge04-Test";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		5BE70D7E282AF4A100E36372 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VWZ6P536SX;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.andrearns.MiniChallenge04-Test";
-				PRODUCT_NAME = "MiniChallenge04-Test";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		5BE70D8F282AF68C00E36372 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -634,7 +543,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge04-Test-TvOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"tvOS-Monolito/Preview Content\"";
 				DEVELOPMENT_TEAM = VWZ6P536SX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -645,8 +554,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.andrearns.MiniChallenge04-Test-TvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrearns.Monolito;
+				PRODUCT_NAME = Monolito;
 				SDKROOT = appletvos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -662,7 +571,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge04-Test-TvOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"tvOS-Monolito/Preview Content\"";
 				DEVELOPMENT_TEAM = VWZ6P536SX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -673,8 +582,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.andrearns.MiniChallenge04-Test-TvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrearns.Monolito;
+				PRODUCT_NAME = Monolito;
 				SDKROOT = appletvos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -691,11 +600,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iPadTVs/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-iPadLabs/Preview Content\"";
 				DEVELOPMENT_TEAM = VWZ6P536SX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iPadTVs/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Labs - ADA";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -707,7 +617,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrearns.iPadTVs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrearns.iPadLabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -723,11 +633,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iPadTVs/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-iPadLabs/Preview Content\"";
 				DEVELOPMENT_TEAM = VWZ6P536SX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iPadTVs/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Labs - ADA";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -739,12 +650,75 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrearns.iPadTVs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrearns.iPadLabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BE70E03282B214F00E36372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-Students/Preview Content\"";
+				DEVELOPMENT_TEAM = VWZ6P536SX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrearns.iOS-Students";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BE70E04282B214F00E36372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-Students/Preview Content\"";
+				DEVELOPMENT_TEAM = VWZ6P536SX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrearns.iOS-Students";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -757,24 +731,6 @@
 			buildConfigurations = (
 				5BE70D77282AF4A100E36372 /* Debug */,
 				5BE70D78282AF4A100E36372 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5BE70D79282AF4A100E36372 /* Build configuration list for PBXNativeTarget "MiniChallenge04-Test (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5BE70D7A282AF4A100E36372 /* Debug */,
-				5BE70D7B282AF4A100E36372 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5BE70D7C282AF4A100E36372 /* Build configuration list for PBXNativeTarget "MiniChallenge04-Test (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5BE70D7D282AF4A100E36372 /* Debug */,
-				5BE70D7E282AF4A100E36372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -793,6 +749,15 @@
 			buildConfigurations = (
 				5BE70DA1282AF7CC00E36372 /* Debug */,
 				5BE70DA2282AF7CC00E36372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE70E02282B214F00E36372 /* Build configuration list for PBXNativeTarget "iOS-Students" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE70E03282B214F00E36372 /* Debug */,
+				5BE70E04282B214F00E36372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
