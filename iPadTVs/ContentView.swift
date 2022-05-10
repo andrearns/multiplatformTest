@@ -1,3 +1,10 @@
+//
+//  ContentView.swift
+//  iPadTVs
+//
+//  Created by André Arns on 10/05/22.
+//
+
 import SwiftUI
 
 struct ContentView: View {
@@ -8,6 +15,7 @@ struct ContentView: View {
                     HStack {
                         Text(helpModel.title)
                             .bold()
+                            .padding()
                         Spacer()
                         Text(helpModel.type.rawValue)
                     }
@@ -27,5 +35,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewInterfaceOrientation(.landscapeRight)
     }
 }
