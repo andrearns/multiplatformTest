@@ -31,6 +31,9 @@
 		5BE70E0C282B35EA00E36372 /* HelpSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DD9282B001600E36372 /* HelpSingleton.swift */; };
 		5BE70E0D282B360100E36372 /* HelpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DDA282B001600E36372 /* HelpModel.swift */; };
 		5BE70E10282B377400E36372 /* HelpCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70E0F282B377400E36372 /* HelpCard.swift */; };
+		5BE70E16282B5CE400E36372 /* HelpCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70E14282B5BFC00E36372 /* HelpCard.swift */; };
+		5BE70E17282B5D6A00E36372 /* AnnouncementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DE4282B1C7600E36372 /* AnnouncementModel.swift */; };
+		5BE70E18282B5D6E00E36372 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DEE282B1FFF00E36372 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +60,7 @@
 		5BE70E00282B214F00E36372 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5BE70E09282B258700E36372 /* RequestForHelpModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestForHelpModalView.swift; sourceTree = "<group>"; };
 		5BE70E0F282B377400E36372 /* HelpCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCard.swift; sourceTree = "<group>"; };
+		5BE70E14282B5BFC00E36372 /* HelpCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +213,7 @@
 		5BE70DF2282B210600E36372 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5BE70E13282B5BE800E36372 /* Components */,
 				5BE70D99282AF7CA00E36372 /* ContentView.swift */,
 			);
 			path = Views;
@@ -269,6 +274,14 @@
 			isa = PBXGroup;
 			children = (
 				5BE70E0F282B377400E36372 /* HelpCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5BE70E13282B5BE800E36372 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5BE70E14282B5BFC00E36372 /* HelpCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -424,6 +437,7 @@
 			files = (
 				5BE70DE2282B001600E36372 /* HelpModel.swift in Sources */,
 				5BE70D9A282AF7CA00E36372 /* ContentView.swift in Sources */,
+				5BE70E16282B5CE400E36372 /* HelpCard.swift in Sources */,
 				5BE70E0B282B35E900E36372 /* HelpSingleton.swift in Sources */,
 				5BE70D98282AF7CA00E36372 /* iPadLabsApp.swift in Sources */,
 				5BE70DE8282B1C7700E36372 /* AnnouncementModel.swift in Sources */,
@@ -437,8 +451,10 @@
 			files = (
 				5BE70E0A282B258800E36372 /* RequestForHelpModalView.swift in Sources */,
 				5BE70DFC282B214E00E36372 /* HelpListView.swift in Sources */,
+				5BE70E18282B5D6E00E36372 /* UserModel.swift in Sources */,
 				5BE70E0C282B35EA00E36372 /* HelpSingleton.swift in Sources */,
 				5BE70DFA282B214E00E36372 /* StudentsApp.swift in Sources */,
+				5BE70E17282B5D6A00E36372 /* AnnouncementModel.swift in Sources */,
 				5BE70E10282B377400E36372 /* HelpCard.swift in Sources */,
 				5BE70E0D282B360100E36372 /* HelpModel.swift in Sources */,
 			);
