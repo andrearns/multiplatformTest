@@ -16,7 +16,6 @@
 		5BE70D9C282AF7CC00E36372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE70D9B282AF7CC00E36372 /* Assets.xcassets */; };
 		5BE70D9F282AF7CC00E36372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE70D9E282AF7CC00E36372 /* Preview Assets.xcassets */; };
 		5BE70DDD282B001600E36372 /* HelpSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DD9282B001600E36372 /* HelpSingleton.swift */; };
-		5BE70DDE282B001600E36372 /* HelpSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DD9282B001600E36372 /* HelpSingleton.swift */; };
 		5BE70DE1282B001600E36372 /* HelpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DDA282B001600E36372 /* HelpModel.swift */; };
 		5BE70DE2282B001600E36372 /* HelpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DDA282B001600E36372 /* HelpModel.swift */; };
 		5BE70DE7282B1C7700E36372 /* AnnouncementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DE4282B1C7600E36372 /* AnnouncementModel.swift */; };
@@ -24,9 +23,14 @@
 		5BE70DEF282B1FFF00E36372 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DEE282B1FFF00E36372 /* UserModel.swift */; };
 		5BE70DF0282B1FFF00E36372 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DEE282B1FFF00E36372 /* UserModel.swift */; };
 		5BE70DFA282B214E00E36372 /* StudentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DF9282B214E00E36372 /* StudentsApp.swift */; };
-		5BE70DFC282B214E00E36372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DFB282B214E00E36372 /* ContentView.swift */; };
+		5BE70DFC282B214E00E36372 /* HelpListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DFB282B214E00E36372 /* HelpListView.swift */; };
 		5BE70DFE282B214F00E36372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE70DFD282B214F00E36372 /* Assets.xcassets */; };
 		5BE70E01282B214F00E36372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE70E00282B214F00E36372 /* Preview Assets.xcassets */; };
+		5BE70E0A282B258800E36372 /* RequestForHelpModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70E09282B258700E36372 /* RequestForHelpModalView.swift */; };
+		5BE70E0B282B35E900E36372 /* HelpSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DD9282B001600E36372 /* HelpSingleton.swift */; };
+		5BE70E0C282B35EA00E36372 /* HelpSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DD9282B001600E36372 /* HelpSingleton.swift */; };
+		5BE70E0D282B360100E36372 /* HelpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70DDA282B001600E36372 /* HelpModel.swift */; };
+		5BE70E10282B377400E36372 /* HelpCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE70E0F282B377400E36372 /* HelpCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,14 +48,15 @@
 		5BE70DD2282AFEEC00E36372 /* MiniChallenge04-Test--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MiniChallenge04-Test--iOS--Info.plist"; sourceTree = "<group>"; };
 		5BE70DD9282B001600E36372 /* HelpSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpSingleton.swift; sourceTree = "<group>"; };
 		5BE70DDA282B001600E36372 /* HelpModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpModel.swift; sourceTree = "<group>"; };
-		5BE70DE3282B00FF00E36372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5BE70DE4282B1C7600E36372 /* AnnouncementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementModel.swift; sourceTree = "<group>"; };
 		5BE70DEE282B1FFF00E36372 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		5BE70DF7282B214E00E36372 /* iOS-Students.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Students.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE70DF9282B214E00E36372 /* StudentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsApp.swift; sourceTree = "<group>"; };
-		5BE70DFB282B214E00E36372 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BE70DFB282B214E00E36372 /* HelpListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpListView.swift; sourceTree = "<group>"; };
 		5BE70DFD282B214F00E36372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE70E00282B214F00E36372 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BE70E09282B258700E36372 /* RequestForHelpModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestForHelpModalView.swift; sourceTree = "<group>"; };
+		5BE70E0F282B377400E36372 /* HelpCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +102,8 @@
 			children = (
 				5BE70DEC282B1CE700E36372 /* Network */,
 				5BE70DEB282B1CE200E36372 /* Domain */,
-				5BE70DEA282B1C9500E36372 /* Mocks */,
 				5BE70D63282AF4A100E36372 /* Assets.xcassets */,
+				5BE70DEA282B1C9500E36372 /* Mocks */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -138,7 +143,6 @@
 			children = (
 				5BE70E07282B219700E36372 /* View Models */,
 				5BE70DF2282B210600E36372 /* Views */,
-				5BE70DE3282B00FF00E36372 /* Info.plist */,
 				5BE70D97282AF7CA00E36372 /* iPadLabsApp.swift */,
 				5BE70D9B282AF7CC00E36372 /* Assets.xcassets */,
 				5BE70D9D282AF7CC00E36372 /* Preview Content */,
@@ -233,7 +237,9 @@
 		5BE70E05282B218500E36372 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5BE70DFB282B214E00E36372 /* ContentView.swift */,
+				5BE70E0E282B376500E36372 /* Components */,
+				5BE70DFB282B214E00E36372 /* HelpListView.swift */,
+				5BE70E09282B258700E36372 /* RequestForHelpModalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -257,6 +263,14 @@
 			children = (
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		5BE70E0E282B376500E36372 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5BE70E0F282B377400E36372 /* HelpCard.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,10 +422,10 @@
 			files = (
 				5BE70DE2282B001600E36372 /* HelpModel.swift in Sources */,
 				5BE70D9A282AF7CA00E36372 /* ContentView.swift in Sources */,
+				5BE70E0B282B35E900E36372 /* HelpSingleton.swift in Sources */,
 				5BE70D98282AF7CA00E36372 /* iPadLabsApp.swift in Sources */,
 				5BE70DE8282B1C7700E36372 /* AnnouncementModel.swift in Sources */,
 				5BE70DF0282B1FFF00E36372 /* UserModel.swift in Sources */,
-				5BE70DDE282B001600E36372 /* HelpSingleton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,8 +433,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BE70DFC282B214E00E36372 /* ContentView.swift in Sources */,
+				5BE70E0A282B258800E36372 /* RequestForHelpModalView.swift in Sources */,
+				5BE70DFC282B214E00E36372 /* HelpListView.swift in Sources */,
+				5BE70E0C282B35EA00E36372 /* HelpSingleton.swift in Sources */,
 				5BE70DFA282B214E00E36372 /* StudentsApp.swift in Sources */,
+				5BE70E10282B377400E36372 /* HelpCard.swift in Sources */,
+				5BE70E0D282B360100E36372 /* HelpModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,7 +622,7 @@
 				DEVELOPMENT_TEAM = VWZ6P536SX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iPadTVs/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_CFBundleDisplayName = "Labs - ADA";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -637,7 +655,7 @@
 				DEVELOPMENT_TEAM = VWZ6P536SX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iPadTVs/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_CFBundleDisplayName = "Labs - ADA";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
