@@ -58,7 +58,7 @@ struct HelpListView: View {
                                 Button(action: {
                                     categoryChosen = .code
                                 }) {
-                                    Text("Programação")
+                                    Text("Progs")
                                         .padding(.horizontal, 16)
                                         .padding(.vertical, 4)
                                         .background(Color.green)
